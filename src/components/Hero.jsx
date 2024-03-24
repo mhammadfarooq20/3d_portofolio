@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // import motion from 'framer-motion';
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -13,9 +14,16 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`} >Hi, I'm  <span className="text-[#915eff]">Hammad</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className="text-[#915eff]">Hammad</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 `} >
+            I develop 3D Visuals, User <br className="sm:block hidden" /> Interfaces and Web applications
+
+          </p>
         </div>
       </div>
+      <ComputersCanvas/>
     </section>
   );
 };
