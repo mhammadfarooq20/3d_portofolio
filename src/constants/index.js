@@ -11,6 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  python,
   mongodb,
   git,
   figma,
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Next.Js Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Typescript Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Python Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node.Js Developer",
     icon: creator,
   },
 ];
@@ -93,6 +94,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -117,7 +122,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Technocore",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -130,7 +135,7 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Gadget",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -143,7 +148,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Zingen",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -156,7 +161,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Yehno",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
