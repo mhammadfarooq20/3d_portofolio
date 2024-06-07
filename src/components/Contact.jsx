@@ -6,7 +6,6 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Contact = () => {
   const formRef = useRef();
