@@ -6,6 +6,7 @@
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "bradlc.vscode-tailwindcss",
-        "planbcoding.vscode-react-refactor"
+        "planbcoding.vscode-react-refactor",
+        "codeium.codeium"
     ]
 }

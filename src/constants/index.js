@@ -20,7 +20,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  PhotoGalleryusingCloudinaryAPI,
   jobit,
   tripguide,
   threejs,
@@ -203,25 +203,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Photo Gallery using Cloudinary API",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Next.Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "shadcn-ui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: PhotoGalleryusingCloudinaryAPI,
+    source_code_link: "https://github.com/mhammadfarooq20/hackathon-photo-album/tree/main",
   },
   {
     name: "Job IT",
