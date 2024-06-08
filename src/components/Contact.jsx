@@ -30,9 +30,6 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    //V7ZrFCfr-r0sNjfzl
-    //template_grosujr
-    //service_3sd5k8k
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
